@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Orelega+One&display=swap');
+*{
+   font-family: 'Arimo', sans-serif;
+font-family: 'Orelega One', cursive;
+}
+.espacio{
+    margin-left: 40%;
+
+}
+.galeria{
+    display: flex;
+}
+
+.separador{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.text-iconos{
+    display: grid;
+}
+
+@media(max-width:420px){
+    .separador{
+    height: 8px;
+}
+    .texto-re{
+        display: block;
+
+    }
+    .galeria-titulo{
+        height: 30px;
+        width: 270px;
+    }
+    .separador{
+        margin-left: 2px;
+    }
+    .h5{
+        font-size: 15px;
+    }
+}
