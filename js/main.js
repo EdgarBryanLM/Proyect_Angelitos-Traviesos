@@ -6,7 +6,7 @@ sr.reveal('.logos',{
     origin:'letf',
     distance: '-100px'
 });
-sr.reveal('.menus',{
+sr.reveal('',{
 	duration:2000,
 	 origin:'bottom',
 	 distance: '100px'
