@@ -10,7 +10,24 @@ font-family: 'Orelega One', cursive;
 .galeria{
     display: flex;
 }
+.iconos{
+    
 
+
+}
+
+.btn-whats{
+    
+    margin-left: 93%;
+    position:fixed; 
+    z-index:3;
+    
+}
+.img-whats{
+    height:75%;
+    width: 75%;
+    
+}
 .separador{
     margin-top: 3%;
     margin-left: 5%;
@@ -38,4 +55,47 @@ font-family: 'Orelega One', cursive;
     .h5{
         font-size: 15px;
     }
+   .texts{
+       display:none;
+   }
+   .juegos{
+       display:flex;
+   }
+   .btn-whats{
+       margin-left: 80%;
+   }
 }
+.titulo-conten{
+    height:150px;
+   
+}
+.titlo-a{
+   
+    align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 990px) {
+	.img-whats{
+        height:85%;
+        width: 85%;
+        
+    }
+      }
+
+/* parte1 */
+@media (max-width: 768px) {
+	.img-whats{
+        height:95%;
+        width: 95%;
+        
+    }
+      }
+
+
+
+      @media (max-width: 368px) {
+	
+      }

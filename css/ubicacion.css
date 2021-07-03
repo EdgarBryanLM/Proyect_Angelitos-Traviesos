@@ -1,0 +1,13 @@
+
+.menu-ubi{
+	margin-top:10px;
+}
+
+@media (max-width: 650px) {
+	.mapa-g{
+		width: 100%;
+	}
+	.menu-ubi{
+		display: block;
+	}
+      }

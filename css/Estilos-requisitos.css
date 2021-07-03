@@ -1,0 +1,93 @@
+.col_imagen{
+	width: 30%;
+}
+
+.col_requisitos{
+	width: 70%;
+}
+
+.dl{
+	display: flex;
+	/* Puede tomar los valores de row, row-reverse, column y column-reverse */
+flex-direction: row;
+}
+.separacion{
+	margin-top: 20px;;
+}
+.tarjetas{
+	height: 150px;
+	margin-top:10px;
+}
+.color-icon{
+	color: #0ADF3B;
+}
+.p1{
+	-webkit-text-stroke: 0.1px black;
+color: black;
+}
+.colorf{
+	color: white;
+}
+.imagen-niño{
+	margin-top:60px;
+}
+.color1{
+	background-color:#0ADF3B;
+}
+/*
+.mision{
+	background-color:#0ADF3B;
+
+}
+.vision{
+	background-color:#BF55FC;
+}
+.valores{
+	background-color:#E7F105;
+
+}
+*/
+.color6{
+	background-color:#E7F105;
+}
+.color3{
+	background-color:#55BAFC;
+}
+.color4{
+	background-color:#FC5D55;
+}
+.color5{
+	background-color:#BF55FC;
+}
+.color2{
+	background-color:#FC55A3;
+}
+
+@media (max-width: 990px) {
+	.tarjetas{
+		height: 250px;
+	}
+      }
+
+/* parte1 */
+@media (max-width: 768px) {
+	.parte1 {
+	  display: none;
+	}
+	.tarjetas{
+		height: 150px;
+	}
+	.parte2{
+		margin-left: 13%;
+	}
+      }
+
+
+
+      @media (max-width: 368px) {
+	.tarjetas{
+		height: 200px;
+	}
+      }
+
+  
