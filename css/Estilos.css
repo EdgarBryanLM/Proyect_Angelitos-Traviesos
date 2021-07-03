@@ -16,6 +16,10 @@ font-family: 'Orelega One', cursive;
 
 }
 
+.w-r{
+    height:400px;
+    width: 100%;
+}
 .btn-whats{
     
     margin-left: 93%;
@@ -102,5 +106,10 @@ font-family: 'Orelega One', cursive;
             margin-left: 85%;
             
             
+        }
+        
+        .w-r{
+            height:200px;
+            width: 100%;
         }
       }
