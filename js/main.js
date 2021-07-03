@@ -26,13 +26,13 @@ sr.reveal('',{
      sr.reveal('.separador1',{
 	duration:2000,
 	 origin:'left',
-	 distance: '100px'
+	 distance: '50px'
      });
 
      sr.reveal('.separador2',{
 	duration:2000,
 	 origin:'right',
-	 distance: '100px'
+	 distance: '50px'
      });
      sr.reveal('.vs',{
 	duration:2000,
