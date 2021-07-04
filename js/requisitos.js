@@ -32,18 +32,18 @@ sr.reveal('.c2',{
      sr.reveal('.texto-main',{
 	duration:2000,
 	 origin:'left',
-	 distance: '300px'
+	 distance: '50px'
      });
 
      sr.reveal('.form-main',{
 	duration:2000,
 	 origin:'right',
-	 distance: '300px'
+	 distance: '50px'
      });
      sr.reveal('.redes',{
 	duration:2000,
 	 origin:'bottom',
-	 distance: '300px'
+	 distance: '50px'
      });
 
      sr.reveal('.c2',{

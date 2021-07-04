@@ -11,7 +11,7 @@ sr.reveal('',{
 	 origin:'bottom',
 	 distance: '100px'
      });
-     sr.reveal('.xd',{
+     sr.reveal('.d',{
 	duration:2000,
 	 origin:'bottom',
 	 distance: '100px'
