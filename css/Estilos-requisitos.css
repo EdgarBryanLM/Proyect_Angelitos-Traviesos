@@ -48,7 +48,29 @@ flex-direction: row;
 	position: absolute;
 	height:300px;
 	width: 100%;
+	-webkit-text-stroke: 1px black;
+  color: transparent; 
 	z-index: 3;
+}
+.fondo-hed2{
+	
+	width: 100%;
+	height:200px;
+	
+	z-index: 2;
+	
+}
+.div3{
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	height:200px;
+	width: 100%;
+	z-index: 3;
+	-webkit-text-stroke: 1px black;
+  color: transparent; 
+}
+.img-hed2{
+	height:200px;
 }
 .tamano{
 
@@ -95,6 +117,12 @@ color: black;
 	align-content:center;
 }
 
+
+.mg-about{
+	width: 150px;
+	height: 150px;
+	
+}
 .color6{
 	background-color:#E7F105;
 }
@@ -110,6 +138,25 @@ color: black;
 .color2{
 	background-color:#FC55A3;
 }
+.color9{
+	background-color:#52BE80  ;
+}
+
+.about{
+	width:100%;
+	border-radius: 20px;
+}
+.abajo-derecha:before {
+	content: "";
+	
+	margin-left: 50%;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border-width: 50px 50px 0px;
+	border-style: solid;
+	border-color:#52BE80   transparent transparent;
+    }
 
 @media (max-width: 990px) {
 	.tarjetas{
@@ -133,6 +180,11 @@ color: black;
       @media(max-width:500px){
 	.contacto{
 		display: block;
+	}
+	.mg-about{
+		width: 100px;
+		height: 100px;
+		display: none;
 	}
       }
 
