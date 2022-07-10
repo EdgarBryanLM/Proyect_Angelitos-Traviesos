@@ -11,7 +11,7 @@ font-family: 'Orelega One', cursive;
     display: flex;
 }
 .iconos{
-    
+
 
 
 }
@@ -21,16 +21,33 @@ font-family: 'Orelega One', cursive;
     width: 100%;
 }
 .btn-whats{
-    
+
     margin-left: 95%;
-    position:fixed; 
+    position:fixed;
     z-index:3;
-    
+
+}
+
+.btn-whats{
+
+    margin-left: 95%;
+    position:fixed;
+    z-index:1000;
+
+}
+
+.btn-whats2{
+
+
+    width: 60px;
+    height:60px;
+
+
 }
 .img-whats{
     height:75%;
     width: 75%;
-    
+
 }
 .separador{
     margin-top: 3%;
@@ -68,13 +85,14 @@ font-family: 'Orelega One', cursive;
    .btn-whats{
        margin-left: 80%;
    }
+
 }
 .titulo-conten{
     height:150px;
-   
+
 }
 .titlo-a{
-   
+
     align-content: center;
     text-align: center;
     display: flex;
@@ -85,7 +103,7 @@ font-family: 'Orelega One', cursive;
 	.img-whats{
         height:85%;
         width: 85%;
-        
+
     }
       }
 
@@ -94,7 +112,7 @@ font-family: 'Orelega One', cursive;
 	.img-whats{
         height:95%;
         width: 95%;
-        
+
     }
       }
 
@@ -102,12 +120,12 @@ font-family: 'Orelega One', cursive;
 
       @media (max-width: 468px) {
         .btn-whats{
-    
-            
-            
-            
+
+
+
+
         }
-        
+
         .w-r{
             height:200px;
             width: 100%;
